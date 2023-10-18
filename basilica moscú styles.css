@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("images/moscu.jpg") center/cover no-repeat;
+    backdrop-filter: blur(3px);
+    color: #fff;
+}
+
+header {
+    background-color: #e7c171d8;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    height: 100px;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 36px;
+    color: #ff6600;
+}
+
+h1::after {
+    content: "Moscú - Rusia";
+    display: block;
+    font-size: 18px;
+    color: #666;
+}
+
+.button-banner {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    margin: 20px;
+}
+
+section.descripcion {
+    background-color: #e7c171d8;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+section.imagen-lugar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 60%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #f9e4b7;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #666;
+}
